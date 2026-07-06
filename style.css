@@ -127,14 +127,14 @@ h1 {
 
 #floatingSumBox {
     position: fixed;        
-    left: 120px;             
+    left: 140px;             
     top: 50%;              
     transform: translateY(-50%); 
     background-color: white;
     border: 3px solid black;
     border-radius: 15px;
     padding: 20px;
-    width: 150px;
+    width: 170px;
     text-align: center;
     box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
 }
@@ -193,7 +193,7 @@ h1 {
 
 #flotbear {
     position: fixed;
-    bottom: 141px;
+    bottom: 155px;
     right: 50px;
     width: 420px;
     height: 450px;
