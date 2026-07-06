@@ -37,11 +37,11 @@ button {
     color: rgb(255, 255, 255);
     padding: 5px 15px;
     border-radius: 9px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(56, 135, 252);
     border: none;
     cursor: pointer;
     transform: translateY(40px);
-    box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 0px rgba(91, 94, 88, 0.308);
 }
 
 button:hover {
@@ -49,6 +49,7 @@ button:hover {
     border: 1px solid black;
     color: black;
     scale: 1.05;
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.2);
 }
 
 button:active {
@@ -193,10 +194,10 @@ h1 {
 
 #flotbear {
     position: fixed;
-    bottom: 155px;
-    right: 50px;
-    width: 420px;
-    height: 450px;
+    bottom: 112px;
+    right: 10px;
+    width: 450px;
+    height: 470px;
     z-index: -1;
 }
 
@@ -212,6 +213,7 @@ h1 {
     background-color: rgb(0, 0, 0);
     text-align: center;
     color: white;
+    z-index: 3;
 }
 
 .hello {
@@ -227,6 +229,7 @@ h1 {
     background-color: white;
     text-align: center;
     font-weight: bold;
+    z-index: 3;
 }
 
 
@@ -313,7 +316,7 @@ h1 {
     height: 27px;
     width: 400px;
     padding-top: 5px;
-    clip-path: polygon(7% 0%, 93% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(7% 0%, 80% 0%, 100% 100%, 0% 100%);
     border-radius: 3px;
     bottom: 0px;
     font-family: 'Courier New', Courier, monospace;
