@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="hello">Hello! Welcome :</div>
+    <div class="built">&lt;&nbsp; built with &hearts; by Suraj Kumar /&gt;</div>
+    <div class="flotdice">
+        <img src="dic.png" alt="dice" id="diclogo" >
+    </div>
+
+    <div class="bear">
+        <img src="floatingbear.gif" alt="bear" id="flotbear" >
+    </div>
+
+    <div id="floatingSumBox">
+        <h3>Total Sum</h3>
+        <p id="totalSum">0</p>
+    </div>
+
+    <div class="container">
+        <h1>Dice Roller</h1>
+        <div id="btnpos">
+            <div id="inpPos"><label for="inpt"># of dice :</label>
+            <input type="number" id="inpt" value="1">
+        </div>
+        <button onclick="rollDice()">Roll Dice</button>
+        </div>
+        <div id="diceResult" ></div>
+        <div id="diceImages"></div>
+    </div>
+    <button id="floatingResetBtn" onclick="resetApp()">Reset Game</button>
+
+    <audio src="dicSound.mp3" id="rollSound"></audio>
+    <script src="app.js"></script>
+</body>
+
+</html>
